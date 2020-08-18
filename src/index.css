@@ -176,3 +176,16 @@ footer {
 .right {
   text-align: right;
 }
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.total > div,
+.total > button {
+  flex: 1;
+  font-size: 2rem;
+}
